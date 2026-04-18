@@ -1,7 +1,7 @@
 import gradio as gr
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="PASTE_YOUR_API_KEY_HERE")
+rf = Roboflow(api_key="zHVU5zhse31z37YdquS2")
 model = rf.workspace().project("vehicle-m8hh0").version(1).model
 
 def detect(image):
