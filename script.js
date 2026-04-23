@@ -1,22 +1,6 @@
 
 
 
-
-const firebaseConfig = {
-  apiKey: "AIzaSyCoDeCyvWUapIpOuu9fPtmhG7IXCN6tA08",
-  authDomain: "smart-parking-system-6a312.firebaseapp.com",
-  projectId: "smart-parking-system-6a312",
-  storageBucket: "smart-parking-system-6a312.firebasestorage.app",
-  messagingSenderId: "754052473135",
-  appId: "1:754052473135:web:3f5945dd98e686537b01da",
-  measurementId: "G-WK8XCDKTN4"
-};
-
-
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
-
 const locations = [
   { id: "ahmedabad-pvr-acropolis", city: "Ahmedabad", name: "PVR Acropolis Mall", area: "Thaltej", address: "Acropolis Mall, SG Highway, Ahmedabad", mapQuery: "PVR Acropolis Mall Ahmedabad parking" },
   { id: "ahmedabad-alpha-one", city: "Ahmedabad", name: "Nexus Ahmedabad One Mall", area: "Vastrapur", address: "Vastrapur, Ahmedabad", mapQuery: "Nexus Ahmedabad One Mall parking" },
